@@ -29,7 +29,6 @@ class Filter extends Component{
       <div style={defaultStyle} >
         <img/>
         <input type="text"/>
-          Filter
       </div>  
     );
   }
@@ -41,7 +40,7 @@ class Playlist extends Component {
       <div style={{...defaultStyle, width: "25%", display: "inline-block"}}>
         <img/>
         <h3>Playlist Name</h3>
-        <ul><li>Song 1</li><li>Song 1</li><li>Song 1</li></ul>
+        <ul><p>Song 1</p><p>Song 1</p><p>Song 1</p></ul>
       </div>
     );
   }
